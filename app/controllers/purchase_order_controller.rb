@@ -1,4 +1,5 @@
 class PurchaseOrderController < ApplicationController
+
   def create
     po = PurchaseOrder.new
     add_fields(po,params[:purchase_order])

@@ -10,7 +10,7 @@ gem "mongoid", "~> 2.1"
 gem "bson_ext", "~> 1.3"
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.6.1'
   gem 'guard'
   gem 'guard-bundler'
   gem 'guard-rspec'
